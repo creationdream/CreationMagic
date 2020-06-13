@@ -1,0 +1,22 @@
+/* pages/home/home.wxss */
+image{
+  width: 60px;
+  height: 50px;
+}
+.img_name{
+  text-align: center;
+} 
+.row_img{
+  
+  display: flex;
+  /*row 横向  column 列表  */
+  flex-direction: row;
+  justify-content: space-around;
+  
+}
+.column_img{
+  height: 800rpx;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}

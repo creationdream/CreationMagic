@@ -1,0 +1,4 @@
+<!--pages/divide/recipe/recipe.wxml-->
+<view>
+<button class='btn' bindtap='sumbit' type='primary'>确定</button>
+</view>

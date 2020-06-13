@@ -1,0 +1,5 @@
+/* pages/分页/分页.wxss */
+image{
+  width: 43px;
+  height: 38px;
+}

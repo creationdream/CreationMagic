@@ -1,0 +1,51 @@
+<!--pages/home/home.wxml-->
+<view class="column_img">
+<view class="row_img">
+  <view bindtap="goto_recipe">
+  <image src="../../资源/图片资源/食谱.png"></image>
+  <view class="img_name">烹饪食谱</view>
+  </view>
+  
+  <view bindtap="goto_recipe">
+  <image src="../../资源/图片资源/宠物饲料.png"></image>
+  <view class="img_name">宠物饲料</view>
+  </view>
+  <view bindtap="goto_recipe">
+  <image src="../../资源/图片资源/坐骑.png"></image>
+   <view class="img_name">坐骑图鉴</view>
+  </view>
+</view>
+
+<view class="row_img">
+  <view bindtap="goto_recipe">
+  <image src="../../资源/图片资源/汽车.png"></image>
+  <view class="img_name">汽车图鉴</view>
+  </view>
+  <view bindtap="goto_recipe">
+  <image src="../../资源/图片资源/战宠.png"></image>
+  <view class="img_name">战宠</view>
+  </view>
+  <view bindtap="goto_recipe">
+  <image src="../../资源/图片资源/钓鱼.png"></image>
+  <view class="img_name">钓鱼</view>
+  </view>
+</view>
+
+<view class="row_img">
+  <view bindtap="goto_recipe">
+  <image src="../../资源/图片资源/食谱.png"></image>
+  </view>
+  <view bindtap="goto_recipe">
+  <image src="../../资源/图片资源/食谱.png"></image>
+  </view>
+  <view bindtap="goto_recipe">
+  <image src="../../资源/图片资源/食谱.png"></image>
+  
+  </view>
+</view>
+</view>
+<view >
+<image src="../../资源/图片资源/首页.jpg" style="height:250rpx;width:1000rpx"></image>
+</view>
+
+  
