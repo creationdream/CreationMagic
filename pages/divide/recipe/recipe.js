@@ -5,7 +5,48 @@ Page({
    * 页面的初始数据
    */
   data: {
+    vegs:[{
+      "name":"菠菜红豆菜",
+      "conponent":["菠菜","红豆"],
+      "id":"123"
+    },{
+      "name":"精灵鱼熬汤",
+      "conponent":["精灵鱼","红豆"],
+      "id":"123"
+    },{
+      "name":"菠菜鱼",
+      "conponent":["菠菜","鱼"],
+      "id":"123"
+    }],
+    current_vegs:[],
+    btn_name:["菠菜","红豆","精灵鱼"]
 
+  },
+  select_veg:function(e)
+  {
+    console.log(e);
+    var veg_name=e.currentTarget.dataset.veg;
+    console.log(veg_name)
+    var result=[]
+    this.setData({
+      current_vegs:result
+    })
+    for(var index in this.data.vegs)
+    {
+      var veg=this.data.vegs[index]
+      var conponents=this.data.vegs[index].conponent
+      for(var i in conponents)
+      {
+        if(conponents[i]==veg_name)
+        {
+          result.push(veg)  
+        }
+      }
+      this.setData({
+        current_vegs:result
+      })
+      
+    }
   },
 
   /**

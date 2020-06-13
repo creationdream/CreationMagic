@@ -45,7 +45,7 @@
 </view>
 </view>
 <view >
-<image src="../../资源/图片资源/首页.jpg" style="height:250rpx;width:1000rpx"></image>
+<image src="../../资源/图片资源/首页.jpg" style="height:250rpx;width:750rpx"></image>
 </view>
 
   

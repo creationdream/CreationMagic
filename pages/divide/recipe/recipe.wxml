@@ -1,4 +1,6 @@
 <!--pages/divide/recipe/recipe.wxml-->
-<view>
-<button class='btn' bindtap='sumbit' type='primary'>确定</button>
+<view class="btn_recipe">
+<button wx:for="{{btn_name}}" bindtap="select_veg" data-veg="{{item}}">{{item}}</button>
+
 </view>
+<view wx:for="{{current_vegs}}">{{item.name}}</view>

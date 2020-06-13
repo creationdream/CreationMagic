@@ -14,11 +14,11 @@
 		"coverView": true,
 		"showShadowRootInWxmlPanel": true,
 		"scopeDataCheck": false,
-		"useCompilerModule": true
+		"useCompilerModule": false
 	},
 	"compileType": "miniprogram",
 	"libVersion": "2.11.2",
-	"appid": "wxd2d8dba26b61aeec",
+	"appid": "wxdd58256def44cf01",
 	"projectname": "%E5%88%9B%E9%80%A0%E4%B8%8E%E9%AD%94%E6%B3%95",
 	"debugOptions": {
 		"hidedInDevtools": []
