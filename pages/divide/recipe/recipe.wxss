@@ -1,5 +1,43 @@
 /* pages/divide/recipe/recipe.wxss */
+.view_recipe{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.recipe_home{
+  display: flex;
+  flex-wrap: wrap;
+}
 .btn_recipe{
+  margin: 1rpx;
+  border: 3rpx solid #FFCC00;
+  border-radius: 20%;
+  color:  #FF9900;
+  font-size: 35rpx;
+}
+.btn_small_recipe{
+  margin: 1rpx;
+  border: 2rpx solid gray;
+  color:  #FF9933;
+  font-size: 30rpx;
+}
+.table{
+  display: table;
+  width: 100%;
+  border-collapse: collapse; 
+  box-sizing: border-box;
+  font-size: small;
+}
+.table-tr {display: table-row; height: 92rpx;}
+.table-th {
+  display: table-cell;font-weight: bold;border: 1rpx solid gray;text-align: center;vertical-align: middle;}
+.table-td {display: table-cell;border: 1rpx solid gray;text-align: center;vertical-align: middle;}
+.img{
+  width: 50rpx;
+  height: 50rpx;
+}
+.view_img{
+  flex-wrap: wrap; 
   display: flex;
   justify-content: space-around;
 }
