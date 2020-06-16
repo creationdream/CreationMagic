@@ -5,7 +5,7 @@
     "pages/logs/logs",
     "pages/other/other",
     "pages/divide/recipe/recipe",
-    "pages/divide/recipe/fish/fish"
+    "pages/divide/ridepet/ridepet"
   ],
   "window": {
     "backgroundTextStyle": "light",

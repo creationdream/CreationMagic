@@ -1,0 +1,41 @@
+<!--pages/divide/ridepet/ridepet.wxml-->
+
+<view class="view_recipe">
+	<view class="recipe_home">
+		<!--菜谱主页-->
+		<view class="btn_recipe" size="mini" type="primary" bindtap="sub_fish">坐骑</view>
+		<view class="btn_recipe" size="mini" type="primary" bindtap="sub_meat">宠物</view>
+		<view class="btn_recipe" size="mini" type="primary" bindtap="sub_fruit">BOSS</view>
+		<view class="btn_recipe" size="mini" type="primary" bindtap="sub_vegetable">家畜</view>
+		<view class="btn_recipe" size="mini" type="primary" bindtap="sub_lianhua">其他</view>
+
+
+		<view class="btn_recipe" wx:for="{{btn_name}}" bindtap="select_veg" data-veg="{{item}}" size="mini" type="primary">{{item}}</view>
+	</view>
+	<!--食谱小类-->
+	<view class="recipe_home">
+		<view class="btn_small_recipe" wx:for="{{abc}}" bindtap="select_veg" data-veg="{{item}}" size="mini" type="warn">{{item}}</view>
+	</view>
+
+
+	<view class="table">
+		<view class="table-tr">
+			<view class="table-th">坐骑图</view>
+			<view class="table-th">名字</view>
+			<view class="table-th">饲料</view>
+		</view>
+
+		<view class="table-tr" wx:for="{{current_vegs}}">
+			<view class="table-td/资源/图片资源/饱食度.png">{{item.name}}</view>
+			<view class="table-td">{{item.conponent}}</view>
+			<view class="table-td">
+				<view class="view_img">
+					<view>{{item.rst[0]}}</view>
+					<view>{{item.rst[1]}}</view>
+					<view>{{item.rst[2]}}</view>
+				</view>
+
+			</view>
+		</view>
+	</view>
+</view>

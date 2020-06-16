@@ -1,11 +1,13 @@
-// pages/divide/recipe/fish/fish.js
+// pages/divide/ridepet/ridepet.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-
+    pet_data:[
+      {'img_path':'/资源/图片资源/坐骑/棕马.png','name':'棕马','饲料':'胡萝卜','速度':2500},
+    ]
   },
 
   /**

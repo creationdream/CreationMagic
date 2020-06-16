@@ -10,9 +10,9 @@
   <image src="../../资源/图片资源/宠物饲料.png"></image>
   <view class="img_name">宠物饲料</view>
   </view>
-  <view bindtap="goto_recipe">
+  <view bindtap="goto_ridepet">
   <image src="../../资源/图片资源/坐骑.png"></image>
-   <view class="img_name">坐骑图鉴</view>
+   <view class="img_name">宠物</view>
   </view>
 </view>
 
@@ -20,10 +20,6 @@
   <view bindtap="goto_recipe">
   <image src="../../资源/图片资源/汽车.png"></image>
   <view class="img_name">汽车图鉴</view>
-  </view>
-  <view bindtap="goto_recipe">
-  <image src="../../资源/图片资源/战宠.png"></image>
-  <view class="img_name">战宠</view>
   </view>
   <view bindtap="goto_recipe">
   <image src="../../资源/图片资源/钓鱼.png"></image>

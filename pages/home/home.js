@@ -67,5 +67,10 @@ Page({
     wx.navigateTo({
       url: '../../pages/divide/recipe/recipe',
     })
+  },
+  goto_ridepet:function(){
+    wx.navigateTo({
+      url: '../../pages/divide/ridepet/ridepet',
+    })
   }
 })
